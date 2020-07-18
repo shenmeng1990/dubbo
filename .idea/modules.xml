@@ -21,6 +21,18 @@
       <module fileurl="file://$PROJECT_DIR$/06-consumer-mocknull/06-consumer-mocknull.iml" filepath="$PROJECT_DIR$/06-consumer-mocknull/06-consumer-mocknull.iml" />
       <module fileurl="file://$PROJECT_DIR$/06-consumer-timeout/06-consumer-timeout.iml" filepath="$PROJECT_DIR$/06-consumer-timeout/06-consumer-timeout.iml" />
       <module fileurl="file://$PROJECT_DIR$/06-provider-timeout/06-provider-timeout.iml" filepath="$PROJECT_DIR$/06-provider-timeout/06-provider-timeout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07-consumer-cache/07-consumer-cache.iml" filepath="$PROJECT_DIR$/07-consumer-cache/07-consumer-cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08-consumer-registries/08-consumer-registries.iml" filepath="$PROJECT_DIR$/08-consumer-registries/08-consumer-registries.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08-provider-registries/08-provider-registries.iml" filepath="$PROJECT_DIR$/08-provider-registries/08-provider-registries.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09-provider-oneway/09-provider-oneway.iml" filepath="$PROJECT_DIR$/09-provider-oneway/09-provider-oneway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10-consumer-async/10-consumer-async.iml" filepath="$PROJECT_DIR$/10-consumer-async/10-consumer-async.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10-consumer-async2/10-consumer-async2.iml" filepath="$PROJECT_DIR$/10-consumer-async2/10-consumer-async2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10-provider-async/10-provider-async.iml" filepath="$PROJECT_DIR$/10-provider-async/10-provider-async.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10-provider-async2/10-provider-async2.iml" filepath="$PROJECT_DIR$/10-provider-async2/10-provider-async2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10-provider-async3/10-provider-async3.iml" filepath="$PROJECT_DIR$/10-provider-async3/10-provider-async3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11-consumer-springboot/11-consumer-springboot.iml" filepath="$PROJECT_DIR$/11-consumer-springboot/11-consumer-springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11-dubbo-common/11-dubbo-common.iml" filepath="$PROJECT_DIR$/11-dubbo-common/11-dubbo-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11-provider-springboot/11-provider-springboot.iml" filepath="$PROJECT_DIR$/11-provider-springboot/11-provider-springboot.iml" />
     </modules>
   </component>
 </project>

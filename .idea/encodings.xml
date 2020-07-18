@@ -39,5 +39,29 @@
     <file url="file://$PROJECT_DIR$/06-consumer-timeout/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/06-provider-timeout/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/06-provider-timeout/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/07-consumer-cache/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/07-consumer-cache/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/08-consumer-registries/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/08-consumer-registries/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/08-provider-registries/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/08-provider-registries/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09-provider-oneway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09-provider-oneway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/10-consumer-async/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/10-consumer-async/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/10-consumer-async2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/10-consumer-async2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/10-provider-async/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/10-provider-async/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/10-provider-async2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/10-provider-async2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/10-provider-async3/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/10-provider-async3/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/11-consumer-springboot/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/11-consumer-springboot/src/main/resources/application.yml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/11-dubbo-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/11-dubbo-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/11-provider-springboot/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/11-provider-springboot/src/main/resources/application.yml" charset="UTF-8" />
   </component>
 </project>

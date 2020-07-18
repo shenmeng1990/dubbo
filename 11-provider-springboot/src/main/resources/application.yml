@@ -1,0 +1,42 @@
+server:
+  port: 8888
+
+mybatis:
+  # 注册mybatis中实体类的别名
+  type-aliases-package: com.alibaba.model
+  # 注册映射文件
+  mapper-locations: classpath:com/alibaba/dao/*.xml
+spring:
+  # 数据源
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://mysqlos:3306/springdb?serverTimezone=GMT%2B8
+    username: root
+    password: root
+
+  redis:
+    host: redisos
+    port: 6379
+    password: root
+    # 连接Redis高可有集群
+    #  redis:
+    #    sentinel:
+    #      master: mymaster
+    #      nodes:
+    #        - sentinelOS1:26379
+    #        - sentinelOS2:26379
+    #        - sentinelOS3:26379
+  cache:
+    type: redis
+    cache-names: realTimeCache
+  application:
+    name: 11-provider-springboot
+
+  dubbo:
+    registry: zookeeper://zkos:2181
+    protocol:
+      port: 20881
+
+    # zk集群作注册中心
+    # registry: zookeeper://zkos1:2181?backup=zkos2:2181,zkos3:2181

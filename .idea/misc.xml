@@ -25,6 +25,19 @@
         <option value="$PROJECT_DIR$/06-consumer-mockclass/pom.xml" />
         <option value="$PROJECT_DIR$/06-provider-timeout/pom.xml" />
         <option value="$PROJECT_DIR$/06-consumer-timeout/pom.xml" />
+        <option value="$PROJECT_DIR$/07-consumer-cache/pom.xml" />
+        <option value="$PROJECT_DIR$/08-provider-registers/pom.xml" />
+        <option value="$PROJECT_DIR$/08-provider-registries/pom.xml" />
+        <option value="$PROJECT_DIR$/08-consumer-registries/pom.xml" />
+        <option value="$PROJECT_DIR$/09-provider-oneway/pom.xml" />
+        <option value="$PROJECT_DIR$/10-provider-async/pom.xml" />
+        <option value="$PROJECT_DIR$/10-consumer-async/pom.xml" />
+        <option value="$PROJECT_DIR$/10-provider-async2/pom.xml" />
+        <option value="$PROJECT_DIR$/10-consumer-async2/pom.xml" />
+        <option value="$PROJECT_DIR$/10-provider-async3/pom.xml" />
+        <option value="$PROJECT_DIR$/11-dubbo-common/pom.xml" />
+        <option value="$PROJECT_DIR$/11-provider-springboot/pom.xml" />
+        <option value="$PROJECT_DIR$/11-consumer-springboot/pom.xml" />
       </list>
     </option>
   </component>
