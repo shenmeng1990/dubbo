@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dubbo="http://dubbo.apache.org/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://dubbo.apache.org/schema/dubbo http://dubbo.apache.org/schema/dubbo/dubbo.xsd">
+
+    <dubbo:application name="05-consumer-group">
+        <dubbo:parameter key="qos.port" value="33333"/>
+    </dubbo:application>
+
+
+    <!--指定服务注册中心：zk单机-->
+    <dubbo:registry address="zookeeper://zkos:2181" />
+    <!--<dubbo:registry protocol="zookeeper" address="zkos:2181"/>-->
+
+    <!--指定服务注册中心：zk集群-->
+    <!--<dubbo:registry address="zookeeper://zkos1:2181?backup=zkos2:2181,zkos3:2181,zkos4:2181"/>-->
+    <!--<dubbo:registry protocol="zookeeper" address="zkos1:2181,zkos2:2181,zkos3:2181,zkos4:2181"/>-->
+
+    <!--check=false 表示关闭服务检查，消费者启动时不会自动检测提供者是否已经注册
+    尤其是存在循环消费的场景，A消费B，B消费C，C消费A 必须关闭服务检查，否则无法启动-->
+   <!-- <dubbo:reference id="someService" check="false" version="0.0.1"
+                     interface="com.alibaba.service.SomeService"/>-->
+
+    <dubbo:reference id="wechat" check="false" group="pay.wechat"
+                     interface="com.alibaba.service.SomeService"/>
+
+    <dubbo:reference id="alipay" check="false" group="pay.alipay"
+                     interface="com.alibaba.service.SomeService"/>
+
+</beans>

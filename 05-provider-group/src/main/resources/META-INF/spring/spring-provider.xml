@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://dubbo.apache.org/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://dubbo.apache.org/schema/dubbo
+       http://dubbo.apache.org/schema/dubbo/dubbo.xsd">
+
+    <dubbo:application name="05-provider-group"/>
+
+    <!--声明服务暴露协议端口-->
+   <!-- <dubbo:protocol name="dubbo" port="20880"/>
+    <dubbo:protocol name="rmi" port="1099"/>-->
+
+    <!--声明注册中心：单机版zk-->
+    <dubbo:registry address="zookeeper://zkos:2181"/>
+    <!--<dubbo:registry protocol="zookeeper" address="zkos:2181"/>-->
+
+    <!--声明注册中心：zk群集-->
+    <!--<dubbo:registry address="zookeeper://zkos1:2181?backup=zkos2:2181,zkos3:2181,zkos4:2181"/>-->
+    <!--<dubbo:registry protocol="zookeeper" address="zkos1:2181,zkos2:2181,zkos3:2181,zkos4:2181"/>-->
+
+    <bean id="weChatSomeService" class="com.alibaba.provider.WeChatSomeServiceImpl"/>
+    <bean id="aliPaySomeService" class="com.alibaba.provider.AliPaySomeServiceImpl"/>
+
+    <!--服务分组-->
+    <dubbo:service interface="com.alibaba.service.SomeService"
+            ref="weChatSomeService" group="pay.wechat"/>
+    <dubbo:service interface="com.alibaba.service.SomeService"
+            ref="aliPaySomeService" group="pay.alipay"/>
+
+
+</beans>

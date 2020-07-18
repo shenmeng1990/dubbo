@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dubbo="http://dubbo.apache.org/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://dubbo.apache.org/schema/dubbo http://dubbo.apache.org/schema/dubbo/dubbo.xsd">
+
+    <dubbo:application name="06-provider-timeout" />
+
+    <!--指定服务注册中心：zk单机-->
+    <dubbo:registry address="zookeeper://zkos:2181"/>
+
+    <bean id="userService" class="com.alibaba.provider.UserServiceImpl"/>
+
+    <!--executes:限制当前接口中的所有方法的并发执行数不超过10个-->
+    <dubbo:service interface="com.alibaba.service.UserService" executes="10"
+                   ref="userService"  timeout="3000"/>
+
+</beans>

@@ -12,10 +12,23 @@
         <option value="$PROJECT_DIR$/01-provider2/pom.xml" />
         <option value="$PROJECT_DIR$/02-provider-zk/pom.xml" />
         <option value="$PROJECT_DIR$/02-consumer-zk/pom.xml" />
+        <option value="$PROJECT_DIR$/03-provider-web/pom.xml" />
+        <option value="$PROJECT_DIR$/03-consumer-web/pom.xml" />
+        <option value="$PROJECT_DIR$/04-provider-version/pom.xml" />
+        <option value="$PROJECT_DIR$/04-consumer-version/pom.xml" />
+        <option value="$PROJECT_DIR$/05-provider-group/pom.xml" />
+        <option value="$PROJECT_DIR$/05-consumer-group/pom.xml" />
+        <option value="$PROJECT_DIR$/02-provider-zk01/pom.xml" />
+        <option value="$PROJECT_DIR$/02-provider-zk02/pom.xml" />
+        <option value="$PROJECT_DIR$/02-provider-zk03/pom.xml" />
+        <option value="$PROJECT_DIR$/06-consumer-mocknull/pom.xml" />
+        <option value="$PROJECT_DIR$/06-consumer-mockclass/pom.xml" />
+        <option value="$PROJECT_DIR$/06-provider-timeout/pom.xml" />
+        <option value="$PROJECT_DIR$/06-consumer-timeout/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

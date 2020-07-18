@@ -13,5 +13,31 @@
     <file url="file://$PROJECT_DIR$/02-consumer-zk/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/02-provider-zk/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/02-provider-zk/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02-provider-zk01/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02-provider-zk01/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02-provider-zk02/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02-provider-zk02/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02-provider-zk03/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02-provider-zk03/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03-consumer-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03-consumer-web/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03-provider-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03-provider-web/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04-consumer-version/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04-consumer-version/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04-provider-version/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04-provider-version/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05-consumer-group/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05-consumer-group/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05-provider-group/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05-provider-group/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06-consumer-mockclass/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06-consumer-mockclass/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06-consumer-mocknull/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06-consumer-mocknull/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06-consumer-timeout/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06-consumer-timeout/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06-provider-timeout/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06-provider-timeout/src/main/resources" charset="UTF-8" />
   </component>
 </project>

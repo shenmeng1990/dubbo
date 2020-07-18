@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://dubbo.apache.org/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://dubbo.apache.org/schema/dubbo
+       http://dubbo.apache.org/schema/dubbo/dubbo.xsd">
+
+    <dubbo:application name="04-provider-version"/>
+
+    <!--声明注册中心：单机版zk-->
+    <dubbo:registry address="zookeeper://zkos:2181"/>
+    <!--<dubbo:registry protocol="zookeeper" address="zkos:2181"/>-->
+
+    <!--声明注册中心：zk群集-->
+    <!--<dubbo:registry address="zookeeper://zkos1:2181?backup=zkos2:2181,zkos3:2181,zkos4:2181"/>-->
+    <!--<dubbo:registry protocol="zookeeper" address="zkos1:2181,zkos2:2181,zkos3:2181,zkos4:2181"/>-->
+
+    <bean id="oldService" class="com.alibaba.provider.OldSomeServiceImpl"/>
+    <bean id="newService" class="com.alibaba.provider.NewSomeServiceImpl"/>
+
+    <!--通过version的版本控制，实现灰度发布-->
+    <dubbo:service interface="com.alibaba.service.SomeService"
+            ref="oldService" version="0.0.1"/>
+    <dubbo:service interface="com.alibaba.service.SomeService"
+            ref="newService" version="0.0.2"/>
+
+
+</beans>
