@@ -50,3 +50,8 @@ dubbo的传统web应用方式
 
 消费者异步调用提供者，提供者的异步执行
 10-provider-async3
+
+springboot中使用dubbo
+11-consumer-springboot
+11-dubbo-common
+11-provider-springboot
